@@ -1,0 +1,6 @@
+#ifndef MENUPRINCIPAL_H_INCLUDED
+#define MENUPRINCIPAL_H_INCLUDED
+
+void MenuPrincipal();
+
+#endif // MENUPRINCIPAL_H_INCLUDED
