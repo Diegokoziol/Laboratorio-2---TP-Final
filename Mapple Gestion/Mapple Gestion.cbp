@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mapple Gestion" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Mapple Gestion" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Mapple Gestion" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="DTOs/ClienteDto.h" />
+		<Unit filename="DTOs/FacturaDto.h" />
+		<Unit filename="DTOs/GastoDto.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="DTOs/ItemBalanceDto.h" />
+		<Unit filename="DTOs/ItemFacturaDto.h" />
+		<Unit filename="DTOs/ItemPresupuestoDto.h" />
+		<Unit filename="DTOs/PresupuestoDto.h" />
+		<Unit filename="DTOs/ProductoDto.h" />
+		<Unit filename="Managers/BalanceManager.cpp" />
+		<Unit filename="Managers/BalanceManager.h" />
+		<Unit filename="Managers/ClienteManager.cpp" />
+		<Unit filename="Managers/ClienteManager.h" />
+		<Unit filename="Managers/FacturaManager.cpp" />
+		<Unit filename="Managers/FacturaManager.h" />
+		<Unit filename="Managers/GastoManager.cpp" />
+		<Unit filename="Managers/GastoManager.h" />
+		<Unit filename="Managers/PresupuestoManager.cpp" />
+		<Unit filename="Managers/PresupuestoManager.h" />
+		<Unit filename="Managers/ProductoManager.cpp" />
+		<Unit filename="Managers/ProductoManager.h" />
+		<Unit filename="Models/ClienteModel.cpp" />
+		<Unit filename="Models/ClienteModel.h" />
+		<Unit filename="Models/FacturaModel.cpp" />
+		<Unit filename="Models/FacturaModel.h" />
+		<Unit filename="Models/Fecha.cpp" />
+		<Unit filename="Models/Fecha.h" />
+		<Unit filename="Models/GastoModel.cpp" />
+		<Unit filename="Models/GastoModel.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Models/ItemFacturaModel.cpp" />
+		<Unit filename="Models/ItemFacturaModel.h" />
+		<Unit filename="Models/ItemPresupuestoModel.cpp" />
+		<Unit filename="Models/ItemPresupuestoModel.h" />
+		<Unit filename="Models/PresupuestoModel.cpp" />
+		<Unit filename="Models/PresupuestoModel.h" />
+		<Unit filename="Models/ProductoModel.cpp" />
+		<Unit filename="Models/ProductoModel.h" />
+		<Unit filename="Repositorios/BalanceRepositorio.cpp" />
+		<Unit filename="Repositorios/BalanceRepositorio.h" />
+		<Unit filename="Repositorios/ClienteRepositorio.cpp" />
+		<Unit filename="Repositorios/ClienteRepositorio.h" />
+		<Unit filename="Repositorios/FacturaRepositorio.cpp" />
+		<Unit filename="Repositorios/FacturaRepositorio.h" />
+		<Unit filename="Repositorios/GastoRepositorio.cpp" />
+		<Unit filename="Repositorios/GastoRepositorio.h" />
+		<Unit filename="Repositorios/ItemFacturaRepositorio.cpp" />
+		<Unit filename="Repositorios/ItemFacturaRepositorio.h" />
+		<Unit filename="Repositorios/ItemPresupuestoRepositorio.cpp" />
+		<Unit filename="Repositorios/ItemPresupuestoRepositorio.h" />
+		<Unit filename="Repositorios/PresupuestoRepositorio.cpp" />
+		<Unit filename="Repositorios/PresupuestoRepositorio.h" />
+		<Unit filename="Repositorios/ProductoRepositorio.cpp" />
+		<Unit filename="Repositorios/ProductoRepositorio.h" />
+		<Unit filename="UI/EntradaCadena.cpp" />
+		<Unit filename="UI/EntradaCadena.h" />
+		<Unit filename="UI/EntradaNumerica.cpp" />
+		<Unit filename="UI/EntradaNumerica.h" />
+		<Unit filename="UI/Helpers/Balances/GenerarBalance.cpp" />
+		<Unit filename="UI/Helpers/Balances/GenerarBalance.h" />
+		<Unit filename="UI/Helpers/Gastos/AgregarGasto.cpp" />
+		<Unit filename="UI/Helpers/Gastos/AgregarGasto.h" />
+		<Unit filename="UI/Helpers/Gastos/MostrarGastos.cpp" />
+		<Unit filename="UI/Helpers/Gastos/MostrarGastos.h" />
+		<Unit filename="UI/Helpers/Presupuestos Y Facturas/AbrirPresupuesto.cpp" />
+		<Unit filename="UI/Helpers/Presupuestos Y Facturas/AbrirPresupuesto.h" />
+		<Unit filename="UI/Helpers/Presupuestos Y Facturas/EditarPresupuesto.cpp" />
+		<Unit filename="UI/Helpers/Presupuestos Y Facturas/EditarPresupuesto.h" />
+		<Unit filename="UI/Helpers/Presupuestos Y Facturas/GenericoPresupuestoYFactura.cpp" />
+		<Unit filename="UI/Helpers/Presupuestos Y Facturas/GenericoPresupuestoYFactura.h" />
+		<Unit filename="UI/Helpers/Presupuestos Y Facturas/VerFactura.cpp" />
+		<Unit filename="UI/Helpers/Presupuestos Y Facturas/VerFactura.h" />
+		<Unit filename="UI/Helpers/Productos/CargarNuevoProducto.cpp" />
+		<Unit filename="UI/Helpers/Productos/CargarNuevoProducto.h" />
+		<Unit filename="UI/Helpers/Productos/FuncionesComunesProducto.cpp" />
+		<Unit filename="UI/Helpers/Productos/FuncionesComunesProducto.h" />
+		<Unit filename="UI/Helpers/Productos/ModificarPrecio.cpp" />
+		<Unit filename="UI/Helpers/Productos/ModificarPrecio.h" />
+		<Unit filename="UI/Helpers/Productos/RegistrarCompraDeProducto.cpp" />
+		<Unit filename="UI/Helpers/Productos/RegistrarCompraDeProducto.h" />
+		<Unit filename="UI/Helpers/Productos/VerStock.cpp" />
+		<Unit filename="UI/Helpers/Productos/VerStock.h" />
+		<Unit filename="UI/MenuGasto.cpp" />
+		<Unit filename="UI/MenuGasto.h" />
+		<Unit filename="UI/MenuPresupuestosYFacturas.cpp" />
+		<Unit filename="UI/MenuPresupuestosYFacturas.h" />
+		<Unit filename="UI/MenuPrincipal.cpp" />
+		<Unit filename="UI/MenuPrincipal.h" />
+		<Unit filename="UI/MenuProductos.cpp" />
+		<Unit filename="UI/MenuProductos.h" />
+		<Unit filename="UI/rlutil.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
